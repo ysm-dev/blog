@@ -2,15 +2,18 @@
 title:        "Start Blogging"
 title-kr:     "블로깅 시작"
 description:  "Start Blogging with First Post"
-image:        "/resources/images/1.jpeg"
+image:        "1.jpeg"
 author:       "Chris Yang"
 layout:       post
 comments:     true
 ---
 
-#블로그 시작. 첫 포스팅
-{: .text-center }
+---
 
+블로그 시작. 첫 포스팅  
+===
+{: .text-center }
+<br/>
 최근 주변 지인들이 운영하는 블로그를 보고 나도 블로그를 시작하기로 마음먹었다.
 
 블로그를 시작하고자 다짐하고 하나둘 배워가다 보니,

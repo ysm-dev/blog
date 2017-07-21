@@ -2,7 +2,7 @@
 title:        "Hacking GitHub<br>Contribution Graph"
 title-kr:     "깃허브 Contribution Graph 조작하기"
 description:  "Hacking GitHub Contribution Graph"
-image:        "/resources/images/2.png"
+image:        "2.png"
 author:       "Chris Yang"
 layout:       post
 ---
