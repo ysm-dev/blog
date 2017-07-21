@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="row justify-content-center">
+  <div class="post-topbox">
+    <img src="{{ site.baseurl }}{{ page.image }}" class="img-responsive" alt="">
+    <div class="portfolio-box-caption">
+      <div class="portfolio-box-caption-content">
+        <div class="project-name">
+          {{ page.title-kr }}
+        </div>
+        <div class="project-category">
+          {{ page.date | date_to_string }}
+        </div>
+        <div class="project-category">
+          Posted by <span class="project-author">Chris Yang</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-lg-2">
+</div>
+<div class="col-lg-8">
+  <div class="contents">
+    {{ content }}
+  </div>
+  <div class="disqus">
+    {% include disqus.html %}
+  </div>
+</div>
