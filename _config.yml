@@ -1,11 +1,11 @@
 
 title: "CHRIS' POSITIVE CODING"
-title-kr: "크리스의 긍정코딩"
-name: "Chris Yang"
 url: 'https://ysm0622.github.io/blog'
 baseurl: '' #change it according to your repository name
-disqus_shortname: "chrisy"
 
+title-kr: "크리스의 긍정코딩"
+name: "Chris Yang"
+disqus_shortname: "chrisy"
 
 nav:
   -
