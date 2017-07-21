@@ -1,0 +1,31 @@
+<!-- ////////////Content Box 04 -->
+<section class="box-content box-4" id="box-gallery" data-anchor="gallery">
+  <div class="">
+    <div class="no-gutter">
+      {% for post in site.posts %}
+
+      <div class="col-lg-4 col-sm-6 nopadding">
+        <div class="portfolio-box zoom-effect">
+          <img src="{{ site.baseurl }}{{ post.image }}" class="img-responsive" alt="">
+          <div class="portfolio-box-caption">
+            <div class="portfolio-box-caption-content">
+              <div class="project-name">
+                {{ post.title }}
+              </div>
+              <div class="project-category">
+                {{ post.date | date_to_string }}
+              </div>
+              <div class="project-social">
+                <ul class="list-inline">
+                  <li><a href="{{ post.url }}"><i class="fa fa-search"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</section>
